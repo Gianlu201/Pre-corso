@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-section {
+    padding: 20px
+}
+
+.image-container {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-container.praia_a_mare {
+    background-image: url('img/praia_a_mare.jpg');
+}
+
+.image-container.isolaDiDino {
+    background-image: url('img/isola_di_dino.jpg');
+}
+
+.image-container.castello {
+    background-image: url('img/castello.jpg');
+}
+
+.image-container.viale {
+    background-image: url('img/viale.jpg');
+}
+
+.image-container.santuario {
+    background-image: url('img/santuario.jpg');
+}
+
+.image-container.torreDiFiuzzi {
+    background-image: url('img/torre_fiuzzi.jpg');
+}
+
+h1 {
+    font-family: 'Prata', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Prata', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+h1, h3 {
+    margin-bottom: 0;
+}
+
+#author a {
+    font-weight: 600;
+    font-style: italic;
+}
+
+h6 {
+    padding: 22px;
+    margin: 56px 0 0;
+    color: white;
+    border-radius: 6px;
+}
+
+h6.praia_a_mare {
+    background: linear-gradient(90deg, #6761a1, #f2c6a5);
+}
+
+h6.isolaDiDino {
+    background: linear-gradient(90deg, #2b292c, #e19768);
+}
+
+h6.castello {
+    background: linear-gradient(90deg, #edba8f, #eeebeb);
+}
+
+h6.viale {
+    background: linear-gradient(90deg, #223605, #6f8b15);
+}
+
+h6.santuario {
+    background: linear-gradient(90deg, #7c675d, #7a7d86);
+}
+
+h6.torreDiFiuzzi {
+    background: linear-gradient(90deg, #313636, #f3c575);
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li {
+    padding: 6px 0 6px 22px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.praia_a_mare li a:visited {
+    color: #6761a1;
+}
+
+.isolaDiDIno li a:visited {
+    color: #2b292c;
+}
+
+.castello li a:visited {
+    color: #edba8f;
+}
+
+.viale li a:visited {
+    color: #223605;
+}
+
+.santuario li a:visited {
+    color: #7c675d;
+}
+
+.torreDiFiuzzi li a:visited {
+    color: #313636;
+}
+
+footer {
+    background-color: black;
+    padding: 16px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+}
